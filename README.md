@@ -1,0 +1,2 @@
+# scratches
+Scratch detection
