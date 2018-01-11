@@ -13,10 +13,8 @@ end
 
 
 print '==> Downloading image and network'
+local image_url = arg[1]
 -- local image_url = '/neck.jpg'
-local image_url = '/clothes.jpg'
--- local image_url = '/car.jpg'
--- local image_url = '/scratch2.jpg'
 local network_url = '/nin_nobn_final.t7'
 local image_name = paths.basename(image_url)
 local network_name = paths.basename(network_url)
